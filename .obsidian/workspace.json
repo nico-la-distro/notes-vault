@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a0d063cb6ec8bc74",
+        "id": "cf5a528d227067a1",
         "type": "tabs",
         "children": [
           {
-            "id": "cf33c70aebbf0b79",
+            "id": "e46cf163eeebe820",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SYN SYN-ACK ACK.md",
+                "file": "TEST.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SYN SYN-ACK ACK"
+              "title": "TEST"
             }
           }
         ]
@@ -160,10 +160,10 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "cf33c70aebbf0b79",
+  "active": "e46cf163eeebe820",
   "lastOpenFiles": [
-    "Blue Team/MAL - Malware Introductory.md",
-    "SYN.md",
+    "TEST.md",
+    "SYN SYN-ACK.md",
     "SYN SYN-ACK ACK.md",
     "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
     "Tools/Wireshark.md",
@@ -173,6 +173,7 @@
     "(i) Info clé (image)/Network Traffic port mirroring.png",
     "(i) Info clé (image)/Network Traffic http flow.png",
     "(i) Info clé (image)/Network Traffic smb with kerberos.png",
+    "Blue Team/MAL - Malware Introductory.md",
     "(i) Info clé (image)/MD5 Checksum.png",
     "Red Team/Hacking tools.md",
     "Red Team/metasploit.md",
@@ -197,7 +198,6 @@
     "Blue Team/SOC Team/SOC L1 Alert Triage.md",
     "OS/Systèmes de fichiers.md",
     "OWASP/OWASP Top 10 2025 - Application Design Flaws.md",
-    "Programmation/Anti-sèche PY vs JS.md",
     "Obsidian Vault nux/Forensic",
     "Obsidian Vault nux/OS",
     "Obsidian Vault nux/Tools",
