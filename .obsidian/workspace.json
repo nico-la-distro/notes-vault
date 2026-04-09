@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cf5a528d227067a1",
+        "id": "40ff10963c94c79d",
         "type": "tabs",
         "children": [
           {
-            "id": "e46cf163eeebe820",
+            "id": "e4b3c1dd0c3e3386",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
+                "file": "Network/Cloud.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Network Services 1 & 2 (SMB, Telnet, FTP exploits)"
+              "title": "Cloud"
             }
           }
         ]
@@ -160,26 +160,27 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "99209d3377783668",
+  "active": "e4b3c1dd0c3e3386",
   "lastOpenFiles": [
-    "Network service 2 im root.png",
-    "Network servce 2 SUID root.png",
-    "Network services 2 mount nfs.png",
-    "Network services 2 showmount.png",
-    "Network services 2 nmap.png",
-    "Network/Network Traffic Analysis.md",
+    "Network/ZTNA (Fortinet).md",
+    "(i) Info clé (image)/ZTNA comment ça marche.png",
+    "(i) Info clé (image)/ZTNA comment ça marche 2.png",
+    "(i) Info clé (image)/ZTNA comment ça marche 3.png",
+    "(i) Info clé (image)/ZTNA flux (fortigate).png",
+    "(i) Info clé (image)/ZTNA.png",
+    "Programmation/Anti-sèche PY vs JS.md",
+    "Blue Team/Network Traffic Analysis.md",
+    "(i) Info clé (image)/Network services 2 showmount.png",
+    "(i) Info clé (image)/Network servce 2 SUID root.png",
+    "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
+    "(i) Info clé (image)/Network service 2 im root.png",
+    "(i) Info clé (image)/Network services 2 mount nfs.png",
+    "(i) Info clé (image)/Network services 2 nmap.png",
     "TEST.md",
     "SYN SYN-ACK.md",
     "SYN SYN-ACK ACK.md",
-    "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
     "Tools/Wireshark.md",
-    "(i) Info clé (image)/Network Traffic external dns flow.png",
-    "(i) Info clé (image)/Network Traffic (TCP-IP).png",
-    "(i) Info clé (image)/Network Traffic port mirroring.png",
-    "(i) Info clé (image)/Network Traffic http flow.png",
-    "(i) Info clé (image)/Network Traffic smb with kerberos.png",
     "Blue Team/MAL - Malware Introductory.md",
-    "(i) Info clé (image)/MD5 Checksum.png",
     "Red Team/Hacking tools.md",
     "Red Team/metasploit.md",
     "Red Team/Shells & Reverse Shells.md",
@@ -196,8 +197,6 @@
     "Blue Team/Frameworks/Pyramid of Pain.md",
     "Blue Team/Core SOC Solutions/IDS.md",
     "Blue Team/Fundamentals/SOC Fundamentals.md",
-    "Blue Team/SOC Team/SOC L1 Alert Triage.md",
-    "OS/Systèmes de fichiers.md",
     "Obsidian Vault nux/Forensic",
     "Obsidian Vault nux/OS",
     "Obsidian Vault nux/Tools",
