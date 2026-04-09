@@ -45,6 +45,9 @@ Le cloud permet de :
 | **PaaS** | App          | Infra + OS    | **Platform as a Service (PaaS)**       |
 | **SaaS** | Rien (usage) | Tout          | **Software as a Service (SaaS)**       |
 
+![[Cloud Iaas Paas Saas.png]]
+
+
 - **Infrastructure as a Service (IaaS):** You rent basic computing resources such as virtual servers, storage, and networking. You are responsible for managing the operating system and your application, while the provider manages the physical hardware.
 - **Platform as a Service (PaaS):** The cloud provider manages the infrastructure and the operating system. You focus on building, deploying, and running your application without worrying about servers.
 - **Software as a Service (SaaS):** You use a complete application over the internet. The provider manages everything, and you access the software through a browser or app, for example, Gmail or Zoom.

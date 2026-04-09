@@ -160,9 +160,12 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "e4b3c1dd0c3e3386",
+  "active": "99209d3377783668",
   "lastOpenFiles": [
+    "(i) Info clé (image)/Cloud Iaas Paas Saas.png",
     "Network/ZTNA (Fortinet).md",
+    "Network/Cloud.md",
+    "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
     "(i) Info clé (image)/ZTNA comment ça marche.png",
     "(i) Info clé (image)/ZTNA comment ça marche 2.png",
     "(i) Info clé (image)/ZTNA comment ça marche 3.png",
@@ -172,7 +175,6 @@
     "Blue Team/Network Traffic Analysis.md",
     "(i) Info clé (image)/Network services 2 showmount.png",
     "(i) Info clé (image)/Network servce 2 SUID root.png",
-    "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
     "(i) Info clé (image)/Network service 2 im root.png",
     "(i) Info clé (image)/Network services 2 mount nfs.png",
     "(i) Info clé (image)/Network services 2 nmap.png",
@@ -191,7 +193,6 @@
     "Cyber Guide.md",
     "Red Team/Authentication Bypass (thm).md",
     "Network/Web application.md",
-    "Network/Cloud.md",
     "Network/OSI model.md",
     "Network/Network Fundamentals (cisco).md",
     "Blue Team/Frameworks/Pyramid of Pain.md",
