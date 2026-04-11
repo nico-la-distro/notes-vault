@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
+                "file": "Blue Team/Core SOC Solutions/Splunk (SIEM).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Network Services 1 & 2 (SMB, Telnet, FTP exploits)"
+              "title": "Splunk (SIEM)"
             }
           }
         ]
@@ -162,23 +162,24 @@
   },
   "active": "e4b3c1dd0c3e3386",
   "lastOpenFiles": [
-    "(i) Info clé (image)/Network services 2 smtp_version.png",
     "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
+    "(i) Info clé (image)/Network services 2 ssh carl.png",
+    "(i) Info clé (image)/Network services 2 john carl mdp.png",
+    "(i) Info clé (image)/Network services 2 mysql_hashdump.png",
+    "(i) Info clé (image)/Network services 2 mysql_schemadump.png",
+    "(i) Info clé (image)/Network services 2 mysql enum metasploit show databases.png",
+    "(i) Info clé (image)/Network services 2 mysql enum metasploit.png",
+    "(i) Info clé (image)/Network services 2 mysql nmap.png",
+    "Programmation/SQL.md",
+    "(i) Info clé (image)/Network services 2 smtp_version.png",
     "(i) Info clé (image)/Network Service 2 hydra ssh (exploit smtp).png",
     "(i) Info clé (image)/Network services 2 nmap (for smtp).png",
-    "(i) Info clé (image)/Network services 2 smtp_enum.png",
-    "(i) Info clé (image)/SMTP handshake.png",
-    "(i) Info clé (image)/SMTP-IMAP schema.png",
     "Programmation/Programmation.md",
     "Network/SASE/SASE.md",
-    "Network/SASE/Screen (SASE)/Fonctionnalité de SASE.png",
-    "Network/SASE/Screen (SASE)/Model SASE.png",
     "Network/SASE/Screen (SASE)",
     "Network/Cloud.md",
     "Network/SASE",
     "Network/SD-WAN/SD-WAN.md",
-    "Network/SD-WAN/SD-WAN structure.png",
-    "Network/SD-WAN/SD-WAN schema.png",
     "Network/SD-WAN",
     "Network/MPLS/Screen (MPLS)",
     "Network/MPLS/MPLS.md",
@@ -201,7 +202,6 @@
     "Cyber Guide.md",
     "Red Team/Authentication Bypass (thm).md",
     "Network/Web application.md",
-    "Network/OSI model.md",
     "Obsidian Vault nux/Forensic",
     "Obsidian Vault nux/OS",
     "Obsidian Vault nux/Tools",
