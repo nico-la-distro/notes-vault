@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blue Team/Frameworks/Pyramid of Pain.md",
+                "file": "Cryptography/Chiffrement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pyramid of Pain"
+              "title": "Chiffrement"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 212.5
   },
   "right": {
     "id": "bc41a88a9f4dc212",
@@ -160,10 +160,19 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "e4b3c1dd0c3e3386",
+  "active": "99209d3377783668",
   "lastOpenFiles": [
-    "Blue Team/Core SOC Solutions/Splunk (SIEM).md",
+    "chiffrement par flux et bloc.png",
+    "Blue Team/Phishing Analysis/Phishing Analysis (fundamentals).md",
+    "Cryptography/Chiffrement.md",
+    "Cryptography",
+    "Blue Team/Network Traffic Analysis.md",
+    "Blue Team/Core SOC Solutions/SIEM.md",
+    "Blue Team/Phishing Analysis",
+    "Tools/Nano.md",
     "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
+    "Blue Team/Frameworks/Pyramid of Pain.md",
+    "Blue Team/Core SOC Solutions/Splunk (SIEM).md",
     "(i) Info clé (image)/Network services 2 ssh carl.png",
     "(i) Info clé (image)/Network services 2 john carl mdp.png",
     "(i) Info clé (image)/Network services 2 mysql_hashdump.png",
@@ -187,7 +196,6 @@
     "Network/MPLS",
     "Network/ZTNA (Fortinet).md",
     "Programmation/Anti-sèche PY vs JS.md",
-    "Blue Team/Network Traffic Analysis.md",
     "TEST.md",
     "SYN SYN-ACK.md",
     "SYN SYN-ACK ACK.md",
@@ -197,16 +205,8 @@
     "Red Team/metasploit.md",
     "Red Team/Shells & Reverse Shells.md",
     "Blue Team/Frameworks/MITRE ATT&CK.md",
-    "Blue Team/Frameworks/Unified Kill Chain.md",
-    "Blue Team/Frameworks/Cyber Kill Chain.md",
-    "Network/Firewall.md",
-    "Cyber Guide.md",
-    "Red Team/Authentication Bypass (thm).md",
-    "Network/Web application.md",
     "Obsidian Vault nux/Forensic",
     "Obsidian Vault nux/OS",
-    "Obsidian Vault nux/Tools",
-    "Obsidian Vault nux/Network",
-    "Obsidian Vault nux/GRC"
+    "Obsidian Vault nux/Tools"
   ]
 }
