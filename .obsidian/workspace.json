@@ -11,14 +11,12 @@
             "id": "e4b3c1dd0c3e3386",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Cryptography/Chiffrement.md",
-                "mode": "source",
-                "source": false
+                "file": "(i) Info clé (image)/phishing analysis champs emails.png"
               },
-              "icon": "lucide-file",
-              "title": "Chiffrement"
+              "icon": "lucide-image",
+              "title": "phishing analysis champs emails"
             }
           }
         ]
@@ -162,28 +160,27 @@
   },
   "active": "99209d3377783668",
   "lastOpenFiles": [
-    "chiffrement par flux et bloc.png",
     "Blue Team/Phishing Analysis/Phishing Analysis (fundamentals).md",
-    "Cryptography/Chiffrement.md",
-    "Cryptography",
+    "(i) Info clé (image)/phishing analysis view html source code.png",
+    "(i) Info clé (image)/phshing analysis piece jointe analyse.png",
+    "(i) Info clé (image)/phishing analysis message view metadata.png",
+    "(i) Info clé (image)/phishing analysis massage view.png",
+    "(i) Info clé (image)/phishing analysis champs emails.png",
     "Blue Team/Network Traffic Analysis.md",
+    "(i) Info clé (image)/chiffrement symétrique + asymétrique 2.png",
+    "(i) Info clé (image)/phishing analysis email's journey.png",
+    "Cryptography/Chiffrement.md",
+    "(i) Info clé (image)/chiffrement symétrique + asymétrique.png",
+    "(i) Info clé (image)/chiffrement algorithme asymétrique.png",
+    "(i) Info clé (image)/chiffrement algorithme symétrique.png",
+    "Cryptography",
     "Blue Team/Core SOC Solutions/SIEM.md",
     "Blue Team/Phishing Analysis",
     "Tools/Nano.md",
     "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
     "Blue Team/Frameworks/Pyramid of Pain.md",
     "Blue Team/Core SOC Solutions/Splunk (SIEM).md",
-    "(i) Info clé (image)/Network services 2 ssh carl.png",
-    "(i) Info clé (image)/Network services 2 john carl mdp.png",
-    "(i) Info clé (image)/Network services 2 mysql_hashdump.png",
-    "(i) Info clé (image)/Network services 2 mysql_schemadump.png",
-    "(i) Info clé (image)/Network services 2 mysql enum metasploit show databases.png",
-    "(i) Info clé (image)/Network services 2 mysql enum metasploit.png",
-    "(i) Info clé (image)/Network services 2 mysql nmap.png",
     "Programmation/SQL.md",
-    "(i) Info clé (image)/Network services 2 smtp_version.png",
-    "(i) Info clé (image)/Network Service 2 hydra ssh (exploit smtp).png",
-    "(i) Info clé (image)/Network services 2 nmap (for smtp).png",
     "Programmation/Programmation.md",
     "Network/SASE/SASE.md",
     "Network/SASE/Screen (SASE)",
