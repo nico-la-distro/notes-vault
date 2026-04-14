@@ -1,4 +1,3 @@
-
 ## Cancel your order
 ### 🎯 Objectif du mail
 
@@ -199,7 +198,7 @@ Phishing imitant un problème de **facturation Netflix** pour pousser la victime
 👉 Le PDF sert de **cache pour un lien malveillant**
 
 ![[phishing email in action netflix analyse.png]]
-## ⚠️ Autres indices importants
+### ⚠️ Autres indices importants
 
 - Numéro de téléphone **format inhabituel**
 - Utilisation d’un domaine “help center” pour rassurer
@@ -211,3 +210,111 @@ Phishing imitant un problème de **facturation Netflix** pour pousser la victime
 
 ## Your Recent Purchase
 
+### 🎯 Objectif du mail
+
+Phishing basé uniquement sur une **pièce jointe malveillante** (aucun contenu dans le mail) imitant un achat Apple.
+
+### 🧠 Techniques utilisées
+
+|Technique|Description|But|
+|---|---|---|
+|Spoofed email|Faux “Apple Support”|Usurper une marque fiable|
+|BCC recipient|Destinataire caché|Dissimuler la liste des victimes|
+|Artificial urgency|“Action Required / achat suspect”|Pousser à ouvrir vite|
+|Attachment-based attack|Fichier `.dot` (Word template)|Contourner les filtres email|
+|Embedded redirect|Lien caché dans le document|Rediriger vers phishing|
+|Fake branding|Référence Apple / iOS|Renforcer la crédibilité|
+
+### 🔍 Premières observations
+
+| Élément    | Indice suspect                                                                                             |
+| ---------- | ---------------------------------------------------------------------------------------------------------- |
+| Subject    | Achat suspect → urgence                                                                                    |
+| From       | “Apple Support” ≠ domaine réel                                                                             |
+| Body       | ❌ complètement vide                                                                                        |
+| Recipient  | Envoyé en BCC ( [Blind Carbon Copied](https://services.pitt.edu/TDClient/33/Portal/KB/ArticleDet?ID=2057)) |
+| Attachment | Fichier Word atypique ( [.dot](https://www.reviversoft.com/en/file-extensions/dot))                        |
+
+👉 **Mail vide + pièce jointe = très suspect**
+
+![[phishing email in action fake apple.png]]
+
+### 📎 Analyse de l’attaque
+
+|Étape|Description|Risque|
+|---|---|---|
+|1|Email vide|Force à ouvrir la pièce jointe|
+|2|Fichier `.dot`|Document Word piégé|
+|3|Image/lien intégré|Redirection cachée|
+|4|Site phishing|Vol de données|
+![[phishing email in action analyse fake apple.png]]
+### ⚠️ Indices techniques importants
+
+- URL longue et complexe → tentative de dissimulation
+- Mots “apps”, “ios” → faux sentiment de légitimité
+- BCC → attaque massive discrète
+- Format fichier inhabituel pour une facture
+
+---
+
+## Scheduled Shipment
+
+### 🎯 Objectif du mail
+
+Phishing imitant une **livraison DHL** pour pousser à ouvrir un **fichier Excel malveillant** menant à l’exécution de code.
+
+### 🧠 Techniques utilisées
+
+|Technique|Description|But|
+|---|---|---|
+|Spoofed email|Faux “DHL Express”|Crédibilité|
+|Brand impersonation|HTML + logos DHL|Confiance|
+|Attachment (Excel)|Fichier `.xlsx` piégé|Lancer l’attaque|
+|Payload execution|Téléchargement d’un `.exe`|Compromettre la machine|
+
+### 🔍 Premières observations
+
+|Élément|Indice suspect|
+|---|---|
+|Subject|Notification de livraison|
+|From|Nom DHL ≠ domaine réel|
+|Email body|Branding DHL (HTML)|
+
+👉 **Classique : livraison = prétexte crédible**
+
+![[phishing email in action fake dhl.png]]
+### 📎 Analyse de la pièce jointe
+
+|Élément|Indice suspect|
+|---|---|
+|Type fichier|`.xlsx` (inhabituel pour tracking simple)|
+|Contenu|Incohérences géographiques|
+|Action|Lien cliquable unique|
+
+**🌍 Incohérences majeures**
+
+- Domaine allemand 🇩🇪
+- Adresse en Inde 🇮🇳
+- Contenu en chinois 🇨🇳
+
+👉 **Mismatch géographique = gros red flag**
+
+![[phishing email in action analyse dhl.png]]
+
+### 🔗 Chaîne d’attaque
+
+|Étape|Description|Impact|
+|---|---|---|
+|1|Email DHL fake|Incite à ouvrir|
+|2|Fichier Excel|Cache le lien|
+|3|Clic sur lien|Télécharge `regasms.exe`|
+|4|Exécution|Compromission système|
+
+### 💻 Risques si exécution réussie
+
+|Impact|Description|
+|---|---|
+|Persistence|Backdoor / accès durable|
+|Data exfiltration|Vol de fichiers / mots de passe|
+|Ransomware|Chiffrement + demande de rançon|
+![[phishing email in action dhl risques.png]]
