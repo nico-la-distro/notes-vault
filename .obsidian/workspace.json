@@ -11,12 +11,14 @@
             "id": "e4b3c1dd0c3e3386",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "(i) Info clé (image)/phishing analysis champs emails.png"
+                "file": "Blue Team/Phishing Analysis/Phishing Emails in Action.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "phishing analysis champs emails"
+              "icon": "lucide-file",
+              "title": "Phishing Emails in Action"
             }
           }
         ]
@@ -160,19 +162,21 @@
   },
   "active": "99209d3377783668",
   "lastOpenFiles": [
+    "phishing email in action netflix analyse.png",
+    "phishing email in action fake netflix.png",
+    "phishing email in action fake login.png",
+    "phishing email in action fake adobe.png",
+    "phishing email in action fake mail.png",
+    "phishing email in action analyse du lien.png",
+    "phishing email in action trackyourpackage.png",
+    "phishing email in action button investigation.png",
+    "phishing email in action body analysis.png",
+    "phishing email in action mismatch.png",
     "Blue Team/Phishing Analysis/Phishing Analysis (fundamentals).md",
-    "(i) Info clé (image)/phishing analysis view html source code.png",
-    "(i) Info clé (image)/phshing analysis piece jointe analyse.png",
-    "(i) Info clé (image)/phishing analysis message view metadata.png",
-    "(i) Info clé (image)/phishing analysis massage view.png",
+    "Blue Team/Phishing Analysis/Phishing Emails in Action.md",
     "(i) Info clé (image)/phishing analysis champs emails.png",
     "Blue Team/Network Traffic Analysis.md",
-    "(i) Info clé (image)/chiffrement symétrique + asymétrique 2.png",
-    "(i) Info clé (image)/phishing analysis email's journey.png",
     "Cryptography/Chiffrement.md",
-    "(i) Info clé (image)/chiffrement symétrique + asymétrique.png",
-    "(i) Info clé (image)/chiffrement algorithme asymétrique.png",
-    "(i) Info clé (image)/chiffrement algorithme symétrique.png",
     "Cryptography",
     "Blue Team/Core SOC Solutions/SIEM.md",
     "Blue Team/Phishing Analysis",
@@ -201,7 +205,6 @@
     "Red Team/Hacking tools.md",
     "Red Team/metasploit.md",
     "Red Team/Shells & Reverse Shells.md",
-    "Blue Team/Frameworks/MITRE ATT&CK.md",
     "Obsidian Vault nux/Forensic",
     "Obsidian Vault nux/OS",
     "Obsidian Vault nux/Tools"
