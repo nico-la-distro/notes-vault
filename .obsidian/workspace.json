@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blue Team/Phishing Analysis/Phishing Emails in Action.md",
+                "file": "Blue Team/Phishing Analysis/Phishing Prevention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phishing Emails in Action"
+              "title": "Phishing Prevention"
             }
           }
         ]
@@ -162,19 +162,21 @@
   },
   "active": "e4b3c1dd0c3e3386",
   "lastOpenFiles": [
-    "(i) Info clé (image)/phishing email in action analyse dhl.png",
-    "Blue Team/Phishing Analysis/Phishing Emails in Action.md",
-    "(i) Info clé (image)/phishing email in action dhl risques.png",
-    "(i) Info clé (image)/phishing email in action fake dhl.png",
-    "(i) Info clé (image)/phishing email in action analyse fake apple.png",
-    "(i) Info clé (image)/phishing email in action fake apple.png",
-    "Blue Team/Fundamentals/SOC Fundamentals.md",
-    "(i) Info clé (image)/phishing email in action netflix analyse.png",
-    "(i) Info clé (image)/phishing email in action fake netflix.png",
-    "(i) Info clé (image)/phishing email in action fake login.png",
-    "(i) Info clé (image)/phishing email in action fake adobe.png",
-    "(i) Info clé (image)/phishing email in action fake mail.png",
+    "Blue Team/Phishing Analysis/Phishing Analysis Tools.md",
     "Blue Team/Phishing Analysis/Phishing Analysis (fundamentals).md",
+    "Blue Team/Phishing Analysis/Phishing Prevention.md",
+    "(i) Info clé (image)/phishing analysis tooles identify artifacts.png",
+    "(i) Info clé (image)/phishing analysis tools IP & domain.png",
+    "(i) Info clé (image)/phishing analysis tools shortened URL.png",
+    "(i) Info clé (image)/phishing analysis tools cas de phishing.png",
+    "(i) Info clé (image)/phishing analysis tools resolving case.png",
+    "(i) Info clé (image)/phishing analysis tools threat intel.png",
+    "(i) Info clé (image)/phishing analysis tools further analysis.png",
+    "(i) Info clé (image)/phishing analysis tools url copy.png",
+    "Blue Team/Phishing Analysis/Phishing Emails in Action.md",
+    "(i) Info clé (image)/phishing email in action analyse dhl.png",
+    "(i) Info clé (image)/phishing email in action dhl risques.png",
+    "Blue Team/Fundamentals/SOC Fundamentals.md",
     "Blue Team/Network Traffic Analysis.md",
     "Cryptography/Chiffrement.md",
     "Cryptography",
@@ -202,8 +204,6 @@
     "SYN SYN-ACK ACK.md",
     "Tools/Wireshark.md",
     "Blue Team/MAL - Malware Introductory.md",
-    "Red Team/Hacking tools.md",
-    "Red Team/metasploit.md",
     "Obsidian Vault nux/Forensic",
     "Obsidian Vault nux/OS",
     "Obsidian Vault nux/Tools"
