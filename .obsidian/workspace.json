@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blue Team/Phishing Analysis/Phishing Prevention.md",
+                "file": "Blue Team/Phishing Analysis/Phishing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phishing Prevention"
+              "title": "Phishing"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5
+    "width": 293.5
   },
   "right": {
     "id": "bc41a88a9f4dc212",
@@ -162,9 +162,12 @@
   },
   "active": "e4b3c1dd0c3e3386",
   "lastOpenFiles": [
+    "Red Team/Shells & Reverse Shells.md",
+    "Blue Team/Phishing Analysis/Phishing.md",
+    "phishing infrastructure.png",
+    "Blue Team/Phishing Analysis/Phishing Prevention.md",
     "Blue Team/Phishing Analysis/Phishing Analysis Tools.md",
     "Blue Team/Phishing Analysis/Phishing Analysis (fundamentals).md",
-    "Blue Team/Phishing Analysis/Phishing Prevention.md",
     "(i) Info clé (image)/phishing analysis tooles identify artifacts.png",
     "(i) Info clé (image)/phishing analysis tools IP & domain.png",
     "(i) Info clé (image)/phishing analysis tools shortened URL.png",
@@ -175,7 +178,6 @@
     "(i) Info clé (image)/phishing analysis tools url copy.png",
     "Blue Team/Phishing Analysis/Phishing Emails in Action.md",
     "(i) Info clé (image)/phishing email in action analyse dhl.png",
-    "(i) Info clé (image)/phishing email in action dhl risques.png",
     "Blue Team/Fundamentals/SOC Fundamentals.md",
     "Blue Team/Network Traffic Analysis.md",
     "Cryptography/Chiffrement.md",
@@ -203,7 +205,6 @@
     "SYN SYN-ACK.md",
     "SYN SYN-ACK ACK.md",
     "Tools/Wireshark.md",
-    "Blue Team/MAL - Malware Introductory.md",
     "Obsidian Vault nux/Forensic",
     "Obsidian Vault nux/OS",
     "Obsidian Vault nux/Tools"
