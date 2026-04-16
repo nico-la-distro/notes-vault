@@ -206,3 +206,5 @@ https://dmarcian.com/domain-checker/
 
 ---
 
+## Secure/Multiperpose Internet Mail Extensions (S/MIME)
+
