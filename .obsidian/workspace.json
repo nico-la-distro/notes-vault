@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blue Team/Phishing Analysis/Phishing.md",
+                "file": "Blue Team/Phishing Analysis/Phishing Prevention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phishing"
+              "title": "Phishing Prevention"
             }
           }
         ]
@@ -160,32 +160,34 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "e4b3c1dd0c3e3386",
+  "active": "99209d3377783668",
   "lastOpenFiles": [
-    "Red Team/Shells & Reverse Shells.md",
-    "Blue Team/Phishing Analysis/Phishing.md",
-    "phishing infrastructure.png",
+    "phishing prevention DMARC microsoft exemple.png",
+    "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
     "Blue Team/Phishing Analysis/Phishing Prevention.md",
+    "phishing prevention DKIM permerror.png",
+    "phishing prevention DKIM framework.png",
+    "phishing prevention SPF softfail.png",
+    "phishing prevention SPF framework.png",
+    "(i) Info clé (image)/phishing analyse resultats.png",
+    "Blue Team/Phishing Analysis/Phishing.md",
+    "(i) Info clé (image)/phishing gophish campaigns.png",
+    "(i) Info clé (image)/phishing gophish users & groups.png",
+    "(i) Info clé (image)/phishing gophish email templates 2.png",
+    "(i) Info clé (image)/phishing gophish email templates.png",
+    "(i) Info clé (image)/phishing gophish landing_pages.png",
+    "Cryptography/Hash.md",
+    "Cryptography/Chiffrement.md",
+    "Red Team/Shells & Reverse Shells.md",
     "Blue Team/Phishing Analysis/Phishing Analysis Tools.md",
     "Blue Team/Phishing Analysis/Phishing Analysis (fundamentals).md",
-    "(i) Info clé (image)/phishing analysis tooles identify artifacts.png",
-    "(i) Info clé (image)/phishing analysis tools IP & domain.png",
-    "(i) Info clé (image)/phishing analysis tools shortened URL.png",
-    "(i) Info clé (image)/phishing analysis tools cas de phishing.png",
-    "(i) Info clé (image)/phishing analysis tools resolving case.png",
-    "(i) Info clé (image)/phishing analysis tools threat intel.png",
-    "(i) Info clé (image)/phishing analysis tools further analysis.png",
-    "(i) Info clé (image)/phishing analysis tools url copy.png",
     "Blue Team/Phishing Analysis/Phishing Emails in Action.md",
-    "(i) Info clé (image)/phishing email in action analyse dhl.png",
     "Blue Team/Fundamentals/SOC Fundamentals.md",
     "Blue Team/Network Traffic Analysis.md",
-    "Cryptography/Chiffrement.md",
     "Cryptography",
     "Blue Team/Core SOC Solutions/SIEM.md",
     "Blue Team/Phishing Analysis",
     "Tools/Nano.md",
-    "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
     "Blue Team/Frameworks/Pyramid of Pain.md",
     "Blue Team/Core SOC Solutions/Splunk (SIEM).md",
     "Programmation/SQL.md",
@@ -203,8 +205,6 @@
     "Programmation/Anti-sèche PY vs JS.md",
     "TEST.md",
     "SYN SYN-ACK.md",
-    "SYN SYN-ACK ACK.md",
-    "Tools/Wireshark.md",
     "Obsidian Vault nux/Forensic",
     "Obsidian Vault nux/OS",
     "Obsidian Vault nux/Tools"
