@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blue Team/Phishing Analysis/Phishing Prevention.md",
+                "file": "Blue Team/Phishing Analysis/The Greenholt Phish.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phishing Prevention"
+              "title": "The Greenholt Phish"
             }
           }
         ]
@@ -162,9 +162,14 @@
   },
   "active": "e4b3c1dd0c3e3386",
   "lastOpenFiles": [
+    "Blue Team/Phishing Analysis/Phishing.md",
+    "Blue Team/Phishing Analysis/The Greenholt Phish.md",
+    "Blue Team/Phishing Analysis/Phishing Analysis (fundamentals).md",
+    "Blue Team/Phishing Analysis/Phishing Analysis Tools.md",
+    "Blue Team/Phishing Analysis/Phishing Prevention.md",
+    "Blue Team/Phishing Analysis/Phishing Emails in Action.md",
     "(i) Info clé (image)/smtp analysis code 220.png",
     "(i) Info clé (image)/hashing attaque et def contre hash.png",
-    "Blue Team/Phishing Analysis/Phishing Prevention.md",
     "smtp code 270 document.zip.png",
     "smtp imf email client.png",
     "(i) Info clé (image)/smtp analysis code 552.png",
@@ -175,12 +180,8 @@
     "(i) Info clé (image)/hashing fonctions de hachage.png",
     "(i) Info clé (image)/hashing vérification signature.png",
     "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
-    "Blue Team/Phishing Analysis/Phishing.md",
     "Cryptography/Chiffrement.md",
     "Red Team/Shells & Reverse Shells.md",
-    "Blue Team/Phishing Analysis/Phishing Analysis Tools.md",
-    "Blue Team/Phishing Analysis/Phishing Analysis (fundamentals).md",
-    "Blue Team/Phishing Analysis/Phishing Emails in Action.md",
     "Blue Team/Fundamentals/SOC Fundamentals.md",
     "Blue Team/Network Traffic Analysis.md",
     "Cryptography",
