@@ -208,3 +208,125 @@ https://dmarcian.com/domain-checker/
 
 ## Secure/Multiperpose Internet Mail Extensions (S/MIME)
 
+- Standard pour **emails signés et chiffrés**
+- Basé sur la **cryptographie à clé publique**
+    - 🔐 clé privée (secrète)
+    - 🔓 clé publique (partagée)
+
+### 🔐 1. Signature numérique (Digital Signature)
+
+**⚙️ Fonctionnement**
+
+- L’expéditeur signe avec sa **clé privée**
+- Le destinataire vérifie avec la **clé publique**
+
+**🎯 Garanties**
+
+|Propriété|Rôle|
+|---|---|
+|Authentification|Vérifie l’identité|
+|Non-répudiation|Impossible de nier|
+|Intégrité|Détecte modification|
+
+### 🔒 2. Chiffrement (Encryption)
+
+**⚙️ Fonctionnement**
+
+- Expéditeur chiffre avec la **clé publique du destinataire**
+- Destinataire déchiffre avec sa **clé privée**
+
+**🎯 Garantie**
+
+|Propriété|Rôle|
+|---|---|
+|Confidentialité|Message lisible uniquement par le destinataire|
+
+### 🔁 Workflow simplifié
+
+|Étape|Action|
+|---|---|
+|1|Bob signe avec sa clé privée|
+|2|Bob chiffre avec clé publique de Mary|
+|3|Mary vérifie signature (clé publique Bob)|
+|4|Mary déchiffre (clé privée Mary)|
+
+### 🧠 Points clés
+
+- Combine :
+    - ✍️ **Signature** (authenticité + intégrité)
+    - 🔐 **Chiffrement** (confidentialité)
+- Utilise des **certificats numériques**
+- Communication sécurisée **de bout en bout**
+
+### ⚖️ Positionnement vs SPF/DKIM/DMARC
+
+|Technologie|Rôle|
+|---|---|
+|SPF/DKIM/DMARC|Vérifient l’email (anti-spoofing)|
+|S/MIME|Sécurise le **contenu** de l’email|
+
+---
+
+## Lab thm : https://tryhackme.com/room/phishingemails4gkxh
+
+### Analysing SMTP Responses
+
+**Ressource :** Display Filter Reference: Simple Mail Transfer Protocol https://www.wireshark.org/docs/dfref/s/smtp.html
+
+![[smtp analysis traffic.pcap.png]]
+
+
+![[smtp analysis code 220.png]]
+
+
+![[smtp analysis spamhaus.org.png]]
+
+
+![[smtp analysis code 552.png]]
+
+---
+
+### Inspecting Emails and Attachments
+
+**Ressource** : Display Filter Reference: Internet Message Format https://www.wireshark.org/docs/dfref/i/imf.html
+
+
+---
+
+## How Organisation Stop Phishing
+
+👉 2 axes principaux :
+
+- 🔧 **Défenses techniques**
+- 👤 **Utilisateurs (outils + formation)**
+
+### 🔧 Défenses techniques
+
+|Mécanisme|Rôle|
+|---|---|
+|Email Filtering|Bloque selon réputation IP/domaine|
+|Secure Email Gateways (SEG)|Détecte spoofing, usurpation|
+|Link Rewriting|Remplace les liens suspects (scan)|
+|Sandboxing|Teste fichiers/liens en environnement isolé|
+[**Email Filtering**(opens in new tab)](https://www.spamhaus.org/resource-hub/ip-domain-reputation/)
+[**Secure Email Gateways**](https://www.cloudflare.com/learning/email-security/secure-email-gateway-seg/)
+[**Link Rewriting**(opens in new tab)](https://learn.microsoft.com/en-us/defender-office-365/safe-links-about)
+[**Sandboxing**](https://learn.microsoft.com/en-us/defender-office-365/safe-attachments-about)
+
+### 👤 Outils & formation utilisateur
+
+|Élément|Rôle|
+|---|---|
+|Indicateurs visuels|Alertes : “External”, “Suspicious”|
+|Signalement phishing|Permet de reporter facilement|
+|Formation utilisateurs|Apprentissage des attaques|
+|Simulations phishing|Tests réels pour entraîner|
+
+### 🧠 Points clés
+
+- Même avec protection technique → **risque ≠ 0**
+- L’utilisateur est la **dernière ligne de défense**
+- Approche efficace = **tech + humain**
+
+---
+

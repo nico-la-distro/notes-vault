@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/Hashing.md",
+                "file": "Blue Team/Phishing Analysis/Phishing Prevention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hashing"
+              "title": "Phishing Prevention"
             }
           }
         ]
@@ -160,23 +160,22 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "99209d3377783668",
+  "active": "e4b3c1dd0c3e3386",
   "lastOpenFiles": [
-    "hashing attaque et def contre hash.png",
-    "hashing attaque contre hachage.png",
-    "hashing fonctions de hachage.png",
-    "hashing vérification signature.png",
-    "hashing signature numérique.png",
-    "hashing qu'est ce que c'est.png",
+    "(i) Info clé (image)/smtp analysis code 220.png",
+    "(i) Info clé (image)/hashing attaque et def contre hash.png",
     "Blue Team/Phishing Analysis/Phishing Prevention.md",
-    "phishing prevention DMARC microsoft exemple.png",
-    "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
-    "phishing prevention DKIM permerror.png",
-    "phishing prevention DKIM framework.png",
-    "phishing prevention SPF softfail.png",
-    "phishing prevention SPF framework.png",
-    "Blue Team/Phishing Analysis/Phishing.md",
+    "smtp code 270 document.zip.png",
+    "smtp imf email client.png",
+    "(i) Info clé (image)/smtp analysis code 552.png",
+    "(i) Info clé (image)/smtp analysis spamhaus.org.png",
+    "(i) Info clé (image)/smtp analysis traffic.pcap.png",
     "Cryptography/Hashing.md",
+    "hashing attaque contre hachage.png",
+    "(i) Info clé (image)/hashing fonctions de hachage.png",
+    "(i) Info clé (image)/hashing vérification signature.png",
+    "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
+    "Blue Team/Phishing Analysis/Phishing.md",
     "Cryptography/Chiffrement.md",
     "Red Team/Shells & Reverse Shells.md",
     "Blue Team/Phishing Analysis/Phishing Analysis Tools.md",
