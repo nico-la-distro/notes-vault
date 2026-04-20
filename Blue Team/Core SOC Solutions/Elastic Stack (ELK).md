@@ -64,10 +64,10 @@ Le **Discover tab** est l’espace où un analyste SOC passe le plus de temps : 
 | 2. **Fields pane (gauche)**     | Liste des **champs normalisés** détectés                      | Ajouter/enlever des champs, filtrer vite          |
 | 3. **Index pattern**            | Choisir **quelle source / quel type de logs** explorer        | Ex: sélectionner l’index pattern des **VPN logs** |
 | 4. **Search bar**               | Écrire des **requêtes** + appliquer des filtres               | Recherche d’IOC, user, IP, action, etc.           |
-| 5. **Add filter**               | Ajouter un filtre sur un champ **sans taper toute une query** | Filtrer sur `user=...`, `src_ip=...`, etc.        |
-| 6. **Time filter**              | Restreindre la fenêtre temporelle                             | “Dernières 24h”, “entre 10:00 et 12:00”, etc.     |
-| 7. **Timeline / Time interval** | Histogramme **count d’events dans le temps**                  | Détecter **spikes**, zoom sur une période         |
-| 8. **Top bar**                  | Sauver / ouvrir recherches, partager, etc.                    | Reprendre une investigation, standardiser         |
+| 9. **Add filter**               | Ajouter un filtre sur un champ **sans taper toute une query** | Filtrer sur `user=...`, `src_ip=...`, etc.        |
+| 5. **Time filter**              | Restreindre la fenêtre temporelle                             | “Dernières 24h”, “entre 10:00 et 12:00”, etc.     |
+| 6. **Timeline / Time interval** | Histogramme **count d’events dans le temps**                  | Détecter **spikes**, zoom sur une période         |
+| 7. **Top bar**                  | Sauver / ouvrir recherches, partager, etc.                    | Reprendre une investigation, standardiser         |
 
 ---
 
