@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wireshark/Wireshark - Packet Operations.md",
+                "file": "Wireshark/Wireshark - Traffic Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wireshark - Packet Operations"
+              "title": "Wireshark - Traffic Analysis"
+            }
+          },
+          {
+            "id": "e7fe12223b8ac1a5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "(i) Info clé (image)/wireshark packet operations create & use display filters.png"
+              },
+              "icon": "lucide-image",
+              "title": "wireshark packet operations create & use display filters"
             }
           }
         ]
@@ -162,25 +174,27 @@
   },
   "active": "99209d3377783668",
   "lastOpenFiles": [
-    "wireshark packet operations toolbar features.png",
-    "wireshark packet operations toolbar colors.png",
-    "wireshark packet operations logical operators.png",
-    "wireshark packet operations display filter.png",
-    "wireshark packet operations capture filter.png",
-    "wireshark packet operations http statistics.png",
-    "wireshark packet operations dns statistics.png",
-    "wireshark packet operations ipv4 and ipv6 statistics.png",
-    "wireshark packet operations geoip.png",
-    "wireshark packet operations maxmind db.png",
-    "wireshark packet operations endpoints name resolution.png",
+    "wireshark traffic analysis show udp scan patterns.png",
+    "wireshark traffic analysis udp scan error msg icmp encapsulated original request.png",
+    "wireshark traffic analysis udp scan closed&open port.png",
+    "wireshark traffic analysis tcp syn scan patterns.png",
+    "wireshark traffic analysis syn scans open&closed tcp port.png",
+    "wireshark traffic analysis show tcp connect scan patterns.png",
+    "wireshark traffic analysis tcp connect scans open&closed tcp port.png",
+    "Wireshark/Wireshark - Packet Operations.md",
+    "Wireshark/Wireshark - Traffic Analysis.md",
+    "Wireshark/Wireshark.md",
+    "(i) Info clé (image)/wireshark packet operations create & use display filters.png",
+    "(i) Info clé (image)/wireshark packet operations bookmarks.png",
+    "(i) Info clé (image)/wireshark packet operations string.png",
+    "(i) Info clé (image)/wireshark packet operations lower.png",
+    "Red Team/Hydra.md",
     "Blue Team/Core SOC Solutions/Splunk (SIEM).md",
     "Blue Team/Core SOC Solutions/Elastic Stack (ELK).md",
     "Blue Team/Core SOC Solutions/EDR.md",
     "Red Team/Wifi Hacking 101.md",
-    "Wireshark/Wireshark - Packet Operations.md",
     "Blue Team/Network Traffic Analysis.md",
     "Wireshark",
-    "Wireshark/Wireshark.md",
     "Blue Team/Phishing Analysis/Snapped Phish-ing Line.md",
     "Blue Team/Phishing Analysis/The Greenholt Phish.md",
     "Blue Team/Phishing Analysis/Phishing.md",
@@ -199,8 +213,6 @@
     "Tools/Nano.md",
     "Blue Team/Frameworks/Pyramid of Pain.md",
     "Programmation/SQL.md",
-    "Programmation/Programmation.md",
-    "Network/SASE/SASE.md",
     "Network/SASE/Screen (SASE)",
     "Network/SASE",
     "Network/SD-WAN",

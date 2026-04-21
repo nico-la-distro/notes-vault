@@ -85,7 +85,7 @@
 
 ![[wireshark packet operations endpoints name resolution.png]]
 
-#### 💡 Intérêt :
+💡 Intérêt :
 
 - Lecture **plus humaine** des données
 
@@ -102,11 +102,6 @@
 ![[wireshark packet operations maxmind db.png]]
 
 ![[wireshark packet operations geoip.png]]
-
-### ⚠️ Limites :
-
-- Nécessite Internet
-- Non fonctionnel en lab offline
 
 ---
 
@@ -234,7 +229,7 @@ tcp.port == 80
 |ge|>=|ip.ttl >= 0xFA|≥|
 |le|<=|ip.ttl <= 0xA|≤|
 
-### ⚠️ Note
+⚠️ Note
 
 - Support **décimal + hexadécimal**
 - ❗ `!=` déconseillé → préférer `!(...)`
@@ -274,4 +269,206 @@ tcp.port == 80
 ---
 
 ## Packet Filtering Protocol Filters
+
+- Filtrer selon les **couches du modèle OSI**
+- Analyser :
+    - Réseau (IP)
+    - Transport (TCP/UDP)
+    - Application (HTTP/DNS)
+
+### 🌐 **1. IP Filters (Layer 3)**
+
+📌 Permet de filtrer :
+
+- Adresse IP
+- Version
+- TTL, flags, checksum…
+
+📊 Filtres courants
+
+|Filtre|Description|
+|---|---|
+|`ip`|Tous les paquets IP|
+|`ip.addr == X`|IP source **ou** destination|
+|`ip.src == X`|IP source|
+|`ip.dst == X`|IP destination|
+|`ip.addr == X/24`|Sous-réseau|
+
+![[wireshark packet operations ip filters.png]]
+
+⚠️ À retenir
+
+- `ip.addr` = **bidirectionnel**
+- `ip.src / ip.dst` = **directionnel**
+
+### 🚚 **2. TCP / UDP Filters (Layer 4)**
+
+📌 Permet de filtrer :
+
+- Ports
+- Flags
+- Seq / Ack
+- Erreurs
+
+📊 Filtres courants
+
+|Filtre|Description|
+|---|---|
+|`tcp.port == 80`|TCP port 80|
+|`udp.port == 53`|UDP port 53|
+|`tcp.srcport == X`|Port source TCP|
+|`tcp.dstport == X`|Port destination TCP|
+|`udp.srcport == X`|Port source UDP|
+|`udp.dstport == X`|Port destination UDP|
+
+### 🌍 **3. HTTP / DNS Filters (Layer 7)**
+
+📌 Permet de filtrer :
+
+- Contenu applicatif
+- Requêtes / réponses
+
+📊 Filtres courants
+
+|Filtre|Description|
+|---|---|
+|`http`|Tous les paquets HTTP|
+|`dns`|Tous les paquets DNS|
+|`http.response.code == 200`|Réponses OK|
+|`http.request.method == "GET"`|Requêtes GET|
+|`http.request.method == "POST"`|Requêtes POST|
+|`dns.flags.response == 0`|Requêtes DNS|
+|`dns.flags.response == 1`|Réponses DNS|
+|`dns.qry.type == 1`|Enregistrements A|
+
+![[wireshark packet operations http dns filters.png]]
+
+### 🛠️ **Display Filter Expressions**
+
+📌 Fonction
+
+- Aide à construire des filtres
+- Liste :
+    - Tous les protocoles
+    - Champs disponibles
+    - Types de valeurs
+
+👉 Menu : `Analyse → Display Filter Expression`
+
+💡 Pourquoi utile ?
+
+- Impossible de tout mémoriser
+- Sert de **guide interactif**
+
+![[wireshark packet operations display filter expression.png]]
+
+### 🎨 **Coloring Rules (bonus)**
+
+- Permet de **mettre en évidence** des filtres
+- Utile pour repérer rapidement anomalies
+
+👉 Menu : `View → Coloring Rules`
+
+### 🧠 **Résumé rapide**
+
+- **Layer 3 (IP)** → qui communique
+- **Layer 4 (TCP/UDP)** → comment ça communique (ports)
+- **Layer 7 (HTTP/DNS)** → contenu échangé
+- **Display Filter Expression** = aide essentielle
+- **Coloring Rules** = analyse visuelle rapide
+
+---
+
+## Advanced Filtering
+
+- Aller **plus loin que les filtres basiques**
+- Permet une **analyse fine et ciblée**
+
+### 🧠 **Opérateurs & Fonctions avancés**
+
+📊 Vue d’ensemble
+
+| Filtre     | Type                | Description                                           | Exemple                                   |
+| ---------- | ------------------- | ----------------------------------------------------- | ----------------------------------------- |
+| `contains` | Comparaison         | Recherche une valeur (case-sensitive)                 | `http.server contains "Apache"`           |
+| `matches`  | Comparaison (regex) | Recherche via expression régulière (case-insensitive) | `http.host matches "\.(php\|html)"`       |
+| `in`       | Ensemble            | Vérifie appartenance à une liste                      | `tcp.port in {80 443 8080}`               |
+| `upper()`  | Fonction            | Convertit en MAJUSCULE                                | `upper(http.server) contains "APACHE"`    |
+| `lower()`  | Fonction            | Convertit en minuscule                                | `lower(http.server) contains "apache"`    |
+| `string()` | Fonction            | Convertit en string                                   | `string(frame.number) matches "[13579]$"` |
+
+### 🔹 `contains`
+
+- Cherche **une chaîne exacte**
+- Sensible à la casse  
+    👉 utile pour filtrage simple
+
+![[wireshark packet operations contains.png]]
+
+### 🔹 `matches` (regex)
+
+- Recherche **patterns complexes**
+- Insensible à la casse
+- ⚠️ Peut produire erreurs si mal utilisé  
+    👉 puissant mais à manier avec soin
+
+![[wireshark packet operations matches.png]]
+
+### 🔹 `in`
+
+- Simplifie les conditions multiples  
+    👉 remplace plusieurs `OR`
+
+![[wireshark packet operations in.png]]
+
+### 🔹 `upper()` / `lower()`
+
+- Ignore les problèmes de casse  
+    👉 rend les filtres plus fiables
+
+![[wireshark packet operations upper.png]]
+
+![[wireshark packet operations lower.png]]
+
+### 🔹 `string()`
+
+- Permet regex sur champs non texte  
+    👉 utile pour champs numériques
+
+![[wireshark packet operations string.png]]
+### 🔖 **Bookmarks & Filter Buttons**
+
+📌 Fonction
+
+- Sauvegarder filtres complexes
+- Réutilisation rapide
+
+💡 Avantages
+
+- Gain de temps
+- Standardisation analyse
+
+![[wireshark packet operations bookmarks.png]]
+
+![[wireshark packet operations create & use display filters.png]]
+
+### ⚙️ **Profiles**
+
+📌 Fonction
+
+- Sauvegarder configurations complètes :
+    - Filtres
+    - Couleurs
+    - Préférences
+
+🎯 Utilité
+
+- Adapter Wireshark selon :
+    - Type d’analyse
+    - Cas d’investigation
+
+👉 Menu :
+
+- `Edit → Configuration Profiles`
+- ou barre en bas (profil actif)
 
