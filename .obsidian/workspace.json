@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "Wireshark - Traffic Analysis"
             }
-          },
-          {
-            "id": "e7fe12223b8ac1a5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "(i) Info clé (image)/wireshark packet operations create & use display filters.png"
-              },
-              "icon": "lucide-image",
-              "title": "wireshark packet operations create & use display filters"
-            }
           }
         ]
       }
@@ -90,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 200
   },
   "right": {
     "id": "bc41a88a9f4dc212",
@@ -174,20 +162,25 @@
   },
   "active": "99209d3377783668",
   "lastOpenFiles": [
-    "wireshark traffic analysis show udp scan patterns.png",
-    "wireshark traffic analysis udp scan error msg icmp encapsulated original request.png",
-    "wireshark traffic analysis udp scan closed&open port.png",
-    "wireshark traffic analysis tcp syn scan patterns.png",
-    "wireshark traffic analysis syn scans open&closed tcp port.png",
-    "wireshark traffic analysis show tcp connect scan patterns.png",
-    "wireshark traffic analysis tcp connect scans open&closed tcp port.png",
-    "Wireshark/Wireshark - Packet Operations.md",
+    "wireshark traffic analysis t8 q4.png",
+    "wireshark traffic analysis t8 q3.png",
+    "wireshark traffic analysis t8 q1.png",
+    "wireshark trafic analysis déchiffrement.png",
+    "wireshark traffic analysis import key preference.png",
+    "wireshark traffic analysis import key right click.png",
+    "wireshark traffic analysis tls.handshake.type == 2.png",
+    "wireshark traffic analysis tls.handshake.type == 1.png",
+    "wireshark traffic analysis https.png",
+    "wireshark traffic analysis t7 q4.png",
+    "wireshark traffic analysis t7 q3.png",
     "Wireshark/Wireshark - Traffic Analysis.md",
+    "Red Team/Authentication Bypass (thm).md",
+    "Network/SASE/SASE.md",
+    "Cryptography/Infrastructure à Clé Publique (PKI).md",
+    "Cryptography/Hashing.md",
+    "Cryptography/Chiffrement.md",
+    "Wireshark/Wireshark - Packet Operations.md",
     "Wireshark/Wireshark.md",
-    "(i) Info clé (image)/wireshark packet operations create & use display filters.png",
-    "(i) Info clé (image)/wireshark packet operations bookmarks.png",
-    "(i) Info clé (image)/wireshark packet operations string.png",
-    "(i) Info clé (image)/wireshark packet operations lower.png",
     "Red Team/Hydra.md",
     "Blue Team/Core SOC Solutions/Splunk (SIEM).md",
     "Blue Team/Core SOC Solutions/Elastic Stack (ELK).md",
@@ -195,24 +188,19 @@
     "Red Team/Wifi Hacking 101.md",
     "Blue Team/Network Traffic Analysis.md",
     "Wireshark",
-    "Blue Team/Phishing Analysis/Snapped Phish-ing Line.md",
-    "Blue Team/Phishing Analysis/The Greenholt Phish.md",
+    "Blue Team/Phishing Analysis/Snapped Phish-ing Line (thm).md",
+    "Blue Team/Phishing Analysis/The Greenholt Phish (thm).md",
     "Blue Team/Phishing Analysis/Phishing.md",
     "Blue Team/Phishing Analysis/Phishing Analysis (fundamentals).md",
     "Blue Team/Phishing Analysis/Phishing Analysis Tools.md",
     "Blue Team/Phishing Analysis/Phishing Prevention.md",
     "Blue Team/Phishing Analysis/Phishing Emails in Action.md",
-    "Cryptography/Hashing.md",
     "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
-    "Cryptography/Chiffrement.md",
     "Red Team/Shells & Reverse Shells.md",
     "Blue Team/Fundamentals/SOC Fundamentals.md",
     "Cryptography",
     "Blue Team/Core SOC Solutions/SIEM.md",
     "Blue Team/Phishing Analysis",
-    "Tools/Nano.md",
-    "Blue Team/Frameworks/Pyramid of Pain.md",
-    "Programmation/SQL.md",
     "Network/SASE/Screen (SASE)",
     "Network/SASE",
     "Network/SD-WAN",
