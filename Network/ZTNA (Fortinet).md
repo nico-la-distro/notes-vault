@@ -1,5 +1,7 @@
 ![[ZTNA.png]]
 
+Nécessaire depuis l'avènement de BYOD et IOT
+
 **Flux ZTNA (FortiGate)**
 
 ![[ZTNA flux (fortigate).png]]
@@ -15,3 +17,8 @@
 **Comment marche ZTNA de fortinet 3**
 
 ![[ZTNA comment ça marche 3.png]]
+
+**Modèle de périmètre  VS Zéro trust**
+
+![[Zéro trust vs périmètre sécurisé.png]]
+

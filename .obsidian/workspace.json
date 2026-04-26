@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wireshark/Wireshark - Traffic Analysis.md",
+                "file": "Network/Périmètre de Sécurité.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wireshark - Traffic Analysis"
+              "title": "Périmètre de Sécurité"
             }
           }
         ]
@@ -160,20 +160,22 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "99209d3377783668",
+  "active": "e4b3c1dd0c3e3386",
   "lastOpenFiles": [
-    "wireshark traffic analysis t8 q4.png",
-    "wireshark traffic analysis t8 q3.png",
-    "wireshark traffic analysis t8 q1.png",
-    "wireshark trafic analysis déchiffrement.png",
-    "wireshark traffic analysis import key preference.png",
-    "wireshark traffic analysis import key right click.png",
-    "wireshark traffic analysis tls.handshake.type == 2.png",
-    "wireshark traffic analysis tls.handshake.type == 1.png",
-    "wireshark traffic analysis https.png",
-    "wireshark traffic analysis t7 q4.png",
-    "wireshark traffic analysis t7 q3.png",
-    "Wireshark/Wireshark - Traffic Analysis.md",
+    "Network/ZTNA (Fortinet).md",
+    "Network/Périmètre de Sécurité.md",
+    "périmètre sécurité proxy.png",
+    "périmètre sécurité NAT.png",
+    "périmètre sécurité stateless.png",
+    "périmètre sécurité 5-tuple.png",
+    "Wireshark/Wireshark - Traffic Analysis (Suite).md",
+    "périmètre sécurité couche 2 ACL.png",
+    "Zéro trust vs périmètre sécurisé.png",
+    "Blue Team/NetworkMiner.md",
+    "(i) Info clé (image)/wireshark traffic analsyis t4 q4.png",
+    "Pasted image 20260423114209.png",
+    "(i) Info clé (image)/wireshark traffic analysis t10 q2.png",
+    "(i) Info clé (image)/wireshark traffic analysis t10 q1.png",
     "Red Team/Authentication Bypass (thm).md",
     "Network/SASE/SASE.md",
     "Cryptography/Infrastructure à Clé Publique (PKI).md",
@@ -196,10 +198,7 @@
     "Blue Team/Phishing Analysis/Phishing Prevention.md",
     "Blue Team/Phishing Analysis/Phishing Emails in Action.md",
     "Red Team/Network Services 1 & 2 (SMB, Telnet, FTP exploits).md",
-    "Red Team/Shells & Reverse Shells.md",
-    "Blue Team/Fundamentals/SOC Fundamentals.md",
     "Cryptography",
-    "Blue Team/Core SOC Solutions/SIEM.md",
     "Blue Team/Phishing Analysis",
     "Network/SASE/Screen (SASE)",
     "Network/SASE",

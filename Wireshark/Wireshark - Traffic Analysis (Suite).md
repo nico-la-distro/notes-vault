@@ -999,6 +999,8 @@ réponse : FLAG{THM-PACKETMASTER}
 
 **Tools → Credentials**
 
+![[wireshark traffic analysis hunt cleartext credentials.png]]
+
 - Liste :
     - username
     - password
@@ -1017,3 +1019,93 @@ réponse : FLAG{THM-PACKETMASTER}
 
 ### Lab thm
 
+#### What is the packet number of the credentials using "HTTP Basic Auth"?
+
+![[wireshark traffic analysis t9 q1.png]]
+
+réponse : 237
+
+#### What is the packet number where "empty password" was submitted?
+
+![[wireshark traffic analysis t9 q2.png]]
+
+réponse : 170
+
+---
+
+## Bonus : Actionable Results!
+
+Passer de **détection → action**
+
+### 🛠️ Feature clé
+
+**Tools → Firewall ACL Rules**
+
+👉 Génère automatiquement des règles firewall basées sur :
+
+- IP
+- Port
+- MAC
+
+### 🔧 Types supportés
+
+|Firewall|Support|
+|---|---|
+|iptables|Linux|
+|Cisco IOS|Network|
+|ipfilter|Unix|
+|ipfw|BSD|
+|pf|OpenBSD|
+|Windows Firewall|netsh|
+
+Currently, Wireshark can create rules for:
+
+- Netfilter (iptables)
+- Cisco IOS (standard/extended)
+- IP Filter (ipfilter)
+- IPFirewall (ipfw)
+- Packet filter (pf)
+- Windows Firewall (netsh new/old format)
+
+![[wireshark traffic analysis actionable results.png]]
+
+**⚠️ Important**
+
+- Règles faites pour **firewall externe**
+- À adapter avant déploiement
+
+### Lab thm
+
+#### Select packet number 99. Create a rule for "IPFirewall (ipfw)". What is the rule for "denying source IPv4 address"?
+
+![[wireshark traffic analysis t10 q1.png]]
+
+réponse : add deny ip from 10.121.70.151 to any in
+
+#### Select packet number 231. Create "IPFirewall" rules. What is the rule for "allowing destination MAC address"?
+
+![[wireshark traffic analysis t10 q2.png]]
+
+réponse : add allow MAC 00:d0:59:aa:af:80 any in
+
+---
+
+## Next step
+
+**challenge :**
+
+- https://tryhackme.com/room/c2carnage
+- https://tryhackme.com/r/room/warzoneone
+- https://tryhackme.com/r/room/warzonetwo
+
+**rooms**
+
+ The following rooms will help you step forward in network traffic analysis and anomaly/threat detection.
+
+- [**NetworkMiner**](https://tryhackme.com/room/networkminer)
+- [**Snort**](https://tryhackme.com/room/snort)
+- [**Snort Challenge -  The Basics**](https://tryhackme.com/room/snortchallenges1)
+- [**Snort Challenge - Live Attacks**](https://tryhackme.com/room/snortchallenges2)
+- [**Zeek**](https://tryhackme.com/room/zeekbro)
+- [**Zeek Exercises**](https://tryhackme.com/room/zeekbroexercises)
+- [**Brim**](https://tryhackme.com/room/brim)
