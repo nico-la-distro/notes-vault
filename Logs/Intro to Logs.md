@@ -4,6 +4,12 @@ Identifier activités malveillantes via **logs** → preuves d’événements pa
 
 Logs = archive d’activités → améliore sécurité et protection des assets.
 
+**2 Types of logs**
+
+| **Physical** | - Facilities/areas where critical systems are hosted.<br>- Security camera surveillance and access logs of physical entry and exit from:<br>    - System control rooms<br>    - Offices                                                                                                                                                                                                                                         |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Virtual**  | - Network Components<br>    - Routers and switches<br>    - Plug-in devices<br>- Operating Systems<br>- Servers<br>- Security Appliances<br>    - Firewall<br>    - Anti-virus/malware<br>    - IDS/IPS<br>    - DLP (Data Loss Prevention)<br>    - VPN<br>- Applications and Frameworks<br>    - .Net<br>    - Java<br>    - PHP<br>    - Python<br>- Mobile Devices<br>- Virtualisation and Cloud Components.<br>- Databases |
+
 ### Various types of digital logs
 
 Comprendre les logs → détecter patterns + menaces.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logs/Log Operations.md",
+                "file": "Blue Team/Network Security Monitoring/Network Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Log Operations"
+              "title": "Network Security"
             }
           }
         ]
@@ -162,6 +162,11 @@
   },
   "active": "646c22a159e751ad",
   "lastOpenFiles": [
+    "Logs/Intro to Log Analysis.md",
+    "(i) Info clé (image)/intro to log analysis threatfox.png",
+    "(i) Info clé (image)/intro to log analysis ip extraction.png",
+    "(i) Info clé (image)/intro to log analysis data vizualisation.png",
+    "Network/Firewall.md",
     "Logs/Intro to Logs.md",
     "Logs/Log Operations.md",
     "(i) Info clé (image)/intro to log Log Viewer.png",
@@ -190,18 +195,12 @@
     "Blue Team/Network Security Monitoring",
     "Blue Team/Network Traffic Analysis",
     "(i) Info clé (image)/NetworkMiner viewing metadata.png",
-    "(i) Info clé (image)/NetworkMiner t7q9.png",
-    "(i) Info clé (image)/NetworkMiner t7q8.png",
-    "(i) Info clé (image)/NetworkMiner t7q7.png",
     "Network/Périmètre de Sécurité.md",
     "Red Team/Authentication Bypass (thm).md",
     "Network/SASE/SASE.md",
     "Cryptography/Infrastructure à Clé Publique (PKI).md",
     "Cryptography/Hashing.md",
     "Cryptography/Chiffrement.md",
-    "Blue Team/Core SOC Solutions/Splunk (SIEM).md",
-    "Blue Team/Core SOC Solutions/Elastic Stack (ELK).md",
-    "Blue Team/Core SOC Solutions/EDR.md",
     "Wireshark",
     "Cryptography",
     "Blue Team/Phishing Analysis",
