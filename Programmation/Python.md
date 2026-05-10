@@ -241,7 +241,4 @@ pip install scapy
 ```
 
 
-## **suite = https://tryhackme.com/room/pythonforcybersecurity
-
-## **Python for pentesters**
 
