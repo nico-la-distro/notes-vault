@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmation/Python for Pentesters.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python for Pentesters"
+              "title": "README"
             }
           }
         ]
@@ -160,8 +160,12 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "99209d3377783668",
+  "active": "646c22a159e751ad",
   "lastOpenFiles": [
+    "Programmation/Python for Pentesters.md",
+    "Ressources/Ressources.md",
+    "Ressources",
+    "Nouveau dossier",
     "README.md",
     "Programmation/Python.md",
     "Programmation/Programmation.md",
@@ -185,7 +189,6 @@
     "Logs/Intro to Logs.md",
     "Logs/Log Operations.md",
     "Red Team/Wifi Hacking 101.md",
-    "Programmation/Python for Pentesters.md",
     "Logs/Windows Event Logs.md",
     "Logs",
     "Blue Team/Frameworks/Unified Kill Chain.md",
@@ -199,14 +202,11 @@
     "Ressources.md",
     "Red Team/Hydra.md",
     "Red Team/Hacking tools.md",
-    "Blue Team/Network Traffic Analysis/NetworkMiner.md",
     "Blue Team/Network Security Monitoring",
     "Blue Team/Network Traffic Analysis",
     "Wireshark",
     "Cryptography",
     "Blue Team/Phishing Analysis",
-    "Network/SASE/Screen (SASE)",
-    "Network/SASE",
-    "Network/SD-WAN"
+    "Network/SASE/Screen (SASE)"
   ]
 }

@@ -1,8 +1,7 @@
 # Cybersecurity Notes
 
-Notes personnelles prises au fil de ma formation en cybersécurité, principalement via [TryHackMe](https://tryhackme.com).
-
-Rédigées en Markdown avec Obsidian. Denses, sans blabla, orientées mémorisation et révision rapide.
+Notes personnelles de formation en cybersécurité.
+Rédigées en Markdown, orientées révision rapide et mémorisation.
 
 ## Contenu
 
@@ -21,12 +20,4 @@ Rédigées en Markdown avec Obsidian. Denses, sans blabla, orientées mémorisat
 | `Programmation/` | Python, JavaScript, SQL |
 | `Tools/` | CyberChef, Nano |
 
-## Stack
-
-- Plateforme : [TryHackMe](https://tryhackme.com)
-- Éditeur : [Obsidian](https://obsidian.md)
-- Format : Markdown
-
-## Note
-
-Les liens internes Obsidian (`[[note]]`) ne sont pas navigables sur GitHub. Le contenu reste lisible tel quel.
+Les liens internes Obsidian (`[[note]]`) ne sont pas navigables sur GitHub.
