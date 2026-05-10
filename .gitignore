@@ -1,8 +1,5 @@
 # Obsidian
-.obsidian/workspace
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache
+.obsidian/
 .trash/
 
 # OS
