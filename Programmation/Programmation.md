@@ -1,7 +1,7 @@
 ## **Conseils de pro**
 => installer les packages avec pip dans un venv -> pro, propre, pratique, ne casse pas l'OS
 ## **ressources**
-https://www.wolframalpha.com/ math and shits
+https://www.wolframalpha.com/ math
 https://www.apprendslinfo.fr/ le goat de l'informatique
 https://docs.python.org/fr/3/ doc python
 
