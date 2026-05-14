@@ -44,7 +44,7 @@ The encrypted password field contains the hashed passphrase with four components
 
 https://roadmap.sh/linux GOAT
 
-## **tar
+## **tar**
 
 tar sert à regrouper plusieurs fichiers et dossiers en un seul fichier tout en conservant la structure, les permissions, les dates et les propriétaires. Il ne réduit pas la taille des données.
 

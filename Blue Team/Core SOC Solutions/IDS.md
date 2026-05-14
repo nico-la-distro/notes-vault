@@ -62,7 +62,7 @@ RCA = root cause analysis
 
 - À l’installation Snort, tu fournis **interface réseau** + **range** (plage IP).
 - Par défaut, Snort capture surtout le trafic **destiné à l’hôte**.
-- Pour surveiller **tout le réseau**, il faut activer le **promiscuous mode** sur l’interface (capture du trafic qui ne t’est pas destiné).
+- Pour surveiller **tout le réseau**, il faut activer le **promiscuous mode** sur l’interface
 
 ---
 
