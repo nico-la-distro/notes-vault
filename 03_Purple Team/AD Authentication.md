@@ -97,15 +97,15 @@ Différence clé avec NTLM : on s'authentifie **d'abord au DC** → on reçoit d
 
 ### Key Kerberos Components
 
-| Composant                     | Rôle                                                                                                                          |
+| Composant                     | Rôle                                                                                                                         |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| KDC (Key Distribution Center) Service sur le DC, gère toutes les requêtes de tickets. Contient AS (Authentication Service) + TGS (Ticket Granting Service) S  |
-| AS (Authentication Service)   | Vérifie l'identité, émet le                                                                                                   |
-| TGS (Ticket Granting Service) | Émet les Service Tickets sur présentation d'un TGT va                                                                         |
-| TGT (Ticket Granting Ticket)  | Ticket principal, obtenu après auth ini                                                                                       |
-| ST (Service Ticket)           | Ticket d'accès à un service spéc                                                                                              |
-| SPN                           | Identifiant unique d'un service da                                                                                            |
-| KRBTGT                        | Compte spécial dont le hash chiffre tous les TGT → compromis = Golde                                                          |
+| KDC (Key Distribution Center) | Service sur le DC, gère toutes les requêtes de tickets. Contient AS (Authentication Service) + TGS (Ticket Granting Service) |
+| AS (Authentication Service)   | Vérifie l'identité, émet le                                                                                                  |
+| TGS (Ticket Granting Service) | Émet les Service Tickets sur présentation d'un TGT va                                                                        |
+| TGT (Ticket Granting Ticket)  | Ticket principal, obtenu après auth ini                                                                                      |
+| ST (Service Ticket)           | Ticket d'accès à un service spéc                                                                                             |
+| SPN                           | Identifiant unique d'un service da                                                                                           |
+| KRBTGT                        | Compte spécial dont le hash chiffre tous les TGT → compromis = Golde                                                         |
 
 ### How Kerberos Authentication Works
 
@@ -113,14 +113,19 @@ Différence clé avec NTLM : on s'authentifie **d'abord au DC** → on reçoit d
 
 1. Client envoie username + timestamp chiffré avec son hash → KDC
 
-**Step 2 — AS-REP** 2. KDC déchiffre le timestamp, valide l'identité 3. KDC répond avec :
+**Step 2 — AS-REP** 
+
+2. KDC déchiffre le timestamp, valide l'identité 
+3. KDC répond avec :
 
 - Session key chiffrée avec le hash user
 - **TGT** chiffré avec le hash KRBTGT (opaque pour le client)
 
 ![[ad authentication kerberos step 1&2.png]]
 
-**Step 3 — TGS-REQ** 4. Client envoie au KDC : TGT + SPN du service visé + authenticator (chiffré avec session key)
+**Step 3 — TGS-REQ** 
+
+4. Client envoie au KDC : TGT + SPN du service visé + authenticator (chiffré avec session key)
 
 **Step 4 — TGS-REP** 5. KDC déchiffre le TGT, valide, répond avec :
 
@@ -129,7 +134,9 @@ Différence clé avec NTLM : on s'authentifie **d'abord au DC** → on reçoit d
 
 ![[ad authentication kerberos step 3&4.png]]
 
-**Step 5 — AP-REQ** 6. Client présente le ST au service → service déchiffre avec son propre hash → accès accordé
+**Step 5 — AP-REQ** 
+
+6. Client présente le ST au service → service déchiffre avec son propre hash → accès accordé
 
 ![[ad authentication kerberos step 5.png]]
 

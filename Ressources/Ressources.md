@@ -130,3 +130,14 @@ https://obf-io.deobfuscate.io/
 ## **Cheat sheet (reverse shell)**
 
 https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+
+## Regex
+
+https://www.rexegg.com/
+## Exploit research
+
+- [ExploitDB(opens in new tab)](https://www.exploit-db.com/)
+- [NVD(opens in new tab)](https://nvd.nist.gov/vuln/search)
+- [CVE Mitre](https://cve.mitre.org/)
+
+Kali built-in tool : searchsploit
