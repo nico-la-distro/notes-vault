@@ -69,7 +69,7 @@ explorer.exe
 
 **Identifier l'origine** : reconstruire le process tree via Sysmon en corrélant `ProcessId` ↔ `ParentProcessId`. `ipconfig` seul n'est pas suspect (usage légitime IT) → le contexte parent est clé.
 
-![[detecting_discovery.png]]
+![[00_Screenshots/detecting_discovery.png]]
 
 ---
 
