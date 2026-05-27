@@ -1,4 +1,3 @@
-
 **_SPL : **Search Processing Language**_
 ## Search & Reporting
 
