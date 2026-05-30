@@ -1,4 +1,4 @@
-_**R**eversing **E**ngineering **M**alware **n**ux ("nux" pour "Linux")_
+**R**eversing **E**ngineering **M**alware li**nux**
 
 - **Distribution Linux spécialisée** pour l’analyse malware.
 - Fournit un **environnement type sandbox** pour disséquer des échantillons **sans exposer ton système principal**.
