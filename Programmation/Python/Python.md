@@ -47,13 +47,13 @@ On peut **modifier** la valeur d’une variable pendant le programme.
 
 ## **Logical & Boolean Operators**
 
-|Opérateur|Signification|Exemple|
-|--:|---|---|
-|`==`|égal à|`if x == 5:`|
-|`<`|inférieur à|`if x < 5:`|
-|`<=`|inférieur ou égal|`if x <= 5:`|
-|`>`|supérieur à|`if x > 5:`|
-|`>=`|supérieur ou égal|`if x >= 5:`|
+| Opérateur | Signification     | Exemple      |
+| --------: | ----------------- | ------------ |
+|      `==` | égal à            | `if x == 5:` |
+|       `<` | inférieur à       | `if x < 5:`  |
+|      `<=` | inférieur ou égal | `if x <= 5:` |
+|       `>` | supérieur à       | `if x > 5:`  |
+|      `>=` | supérieur ou égal | `if x >= 5:` |
 
 ---
 
