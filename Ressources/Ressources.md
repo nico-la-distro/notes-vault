@@ -141,3 +141,6 @@ https://www.rexegg.com/
 - [CVE Mitre](https://cve.mitre.org/)
 
 Kali built-in tool : searchsploit
+## Python
+
+https://automatetheboringstuff.com/
