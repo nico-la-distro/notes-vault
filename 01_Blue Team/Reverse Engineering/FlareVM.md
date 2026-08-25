@@ -111,7 +111,7 @@ Utilitaires Windows avancés (diagnostic / monitoring).
 ---
 ## **Commonly Used Tools for Investigation (room)**
 
-| Outil                         | À quoi ça sert (valeur enquête)                                                | Quand l’utiliser vite                                       |
+| Outil                         | À quoi ça sert (valeur enquête)                                                | Quand l’utiliser                                            |
 | ----------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------- |
 | **Procmon** (Process Monitor) | Trace **activité système** en temps réel : fichiers, registre, process/threads | “Qu’est-ce qui écrit/ouvre quoi ?” / comportements suspects |
 | **Process Explorer**          | Vue détaillée des processus : **parent/enfant**, DLL chargées, chemin          | “Quel process a spawn celui-là ?” / chaîne d’exécution      |
@@ -198,11 +198,11 @@ Déterminer si le binaire tente une connexion vers un **C2** (command-and-contro
 
 #### Process Explorer (procexp)
 
-| Action                                               | Ce que tu récupères                                                              |
-| ---------------------------------------------------- | -------------------------------------------------------------------------------- |
-| Lancer `cobaltstrike.exe`                            | Confirmer chaîne **parent/enfant** (souvent `Explorer.exe` → `cobaltstrike.exe`) |
-| Identifier le **PID** (ex: 4756, variable), ici 4108 | Sert à recouper avec d’autres outils                                             |
-| Propriétés → onglet **TCP/IP**                       | Vois **destination(s)** + état de connexion                                      |
+| Action                         | Ce que tu récupères                                                              |
+| ------------------------------ | -------------------------------------------------------------------------------- |
+| Lancer `cobaltstrike.exe`      | Confirmer chaîne **parent/enfant** (souvent `Explorer.exe` → `cobaltstrike.exe`) |
+| Identifier le **PID** ici 4108 | Sert à recouper avec d’autres outils                                             |
+| Propriétés → onglet **TCP/IP** | Vois **destination(s)** + état de connexion                                      |
 ![[FlareVM - analysis malicious file 5.png]]
 
 ![[FlaveVM - analysis malicious file 6.png]]
@@ -223,8 +223,3 @@ Defanged IP : 47[.]120[.]46[.]210 (pour éviter que ce soit interprété)
 
 ✅ Résultat : confirmation d’une connexion vers **`47.120.46.210`**.
 
-## **Tips à retenir**
-
-**Defanged IP** : 47[.]120[.]46[.]210 (pour éviter que ce soit interprété) (.) ou [.]
-
-**imphash** = méthode de hachage utilisée en analyse de logiciels malveillants pour identifier des fichiers binaires liés, même s'ils ne sont pas identiques au niveau du contenu.
